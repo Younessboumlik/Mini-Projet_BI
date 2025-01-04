@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Medi Effets DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|solutionrelative:Medi Effets DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Medicaments.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|solutionrelative:Dim Medicaments.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Patients.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|solutionrelative:Dim Patients.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Temps.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{C92A591F-79EF-44D1-BF50-A5F449D420D5}|MultidimensionalProjectBI.dwproj|solutionrelative:Dim Temps.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 510,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Medi Effets DW.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Medi Effets DW.cube",
+              "RelativeDocumentMoniker": "Medi Effets DW.cube",
+              "ToolTip": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Medi Effets DW.cube [Design]",
+              "RelativeToolTip": "Medi Effets DW.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-04T17:41:25.929Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Temps.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Temps.dim",
+              "RelativeDocumentMoniker": "Dim Temps.dim",
+              "ToolTip": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Temps.dim [Design]",
+              "RelativeToolTip": "Dim Temps.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-04T17:40:26.244Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Patients.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Patients.dim",
+              "RelativeDocumentMoniker": "Dim Patients.dim",
+              "ToolTip": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Patients.dim [Design]",
+              "RelativeToolTip": "Dim Patients.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-04T17:40:16.19Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Medicaments.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Medicaments.dim",
+              "RelativeDocumentMoniker": "Dim Medicaments.dim",
+              "ToolTip": "C:\\Users\\YOUNESS\\Desktop\\studies\\ENSA\\IID\\S3\\Data Warehouse\\Projet\\Mini-Projet_BI\\MultidimensionalProjectBI\\Dim Medicaments.dim [Design]",
+              "RelativeToolTip": "Dim Medicaments.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-04T17:01:22.575Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

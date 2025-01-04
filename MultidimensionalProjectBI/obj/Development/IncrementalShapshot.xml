@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProjectBI</Database>
+    <Server>DESKTOP-V88JUKL\SQLSERVERDEVELOE</Server>
+    <ConnectionString>Data Source=DESKTOP-V88JUKL\SQLSERVERDEVELOE;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>qPBAPNYjhe7JPW840SxxzEFvYM4=1/4/2025 6:41:32 PM1/4/2025 6:39:12 PM</TimeStamp>
+        <ID>
+          <String>Medi EffetsCube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>LPaGhO8pz33hYpo9yCOYi+BtSCQ=1/4/2025 6:39:45 PM1/4/2025 6:39:45 PM</TimeStamp>
+        <ID>
+          <String>Medi Effets DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GVX/UrImoJaERxkuocEioVIkyWY=1/4/2025 6:41:16 PM1/4/2025 6:40:03 PM</TimeStamp>
+        <ID>
+          <String>Dim Medicaments</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MppTOTbOc4UVKmqoINGfMCTGoQI=1/4/2025 6:41:16 PM1/4/2025 6:40:16 PM</TimeStamp>
+        <ID>
+          <String>Dim Patients</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WrnIJp8c38dT8JH2arjZXjKWUgM=1/4/2025 6:41:16 PM1/4/2025 6:40:26 PM</TimeStamp>
+        <ID>
+          <String>Dim Temps</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PW/U/luGwaSzrWDHLkcjC2sreuc=1/4/2025 6:41:25 PM1/4/2025 6:41:25 PMnip5MIV8NVh7VWYIeeU2BboTjP8=1/4/2025 6:41:25 PM1/4/2025 6:41:25 PM</TimeStamp>
+        <ID>
+          <String>Medi Effets DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>C6RUgL4jGAEqG+bzAJEe8WlU/nw=1/4/2025 5:58:06 PM1/4/2025 5:58:06 PM</TimeStamp>
+      <ID>
+        <String>MultidimensionalProjectBI</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-01-04T17:42:01.446667Z</LastDeployed>
+</DeploymentSnapshot>

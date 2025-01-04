@@ -1,0 +1,236 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="47a3b08c-c5a3-4570-988a-9690cc4877e1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Medi Effets DW</ID>
+  <Name>Medi Effets DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source dwd:design-time-name="b625def9-47c1-4e48-8e7c-d524834377e1">
+    <DataSourceViewID>Medi Effets DW</DataSourceViewID>
+  </Source>
+  <Dimensions>
+    <Dimension dwd:design-time-name="1f0c3462-9e3f-4fb4-a864-dbd3334088a4">
+      <ID>Dim Temps</ID>
+      <Name>Dim Temps</Name>
+      <DimensionID>Dim Temps</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0fd3c4fb-27e1-4037-af6b-847faae2e4f7">
+          <AttributeID>ID Temps</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c626204-4d15-49b7-95df-c5f571c4e340">
+          <AttributeID>Annee</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a4759da-8406-423c-9378-53209a3f9840">
+          <AttributeID>Mois</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7eea5df-a995-466e-b649-055322ece942">
+          <AttributeID>Jour</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0078235d-f30d-41dc-a057-2d0758ef2cc1">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="931f5758-3925-4948-9516-cacf1e0d2cf0">
+      <ID>Dim Patients</ID>
+      <Name>Dim Patients</Name>
+      <DimensionID>Dim Patients</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a1cb6fc1-eb5c-4d7d-853c-736998149e98">
+          <AttributeID>ID Patient</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4642fc73-26dc-4d3a-b010-715447db645f">
+          <AttributeID>Sexe</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d292432-7d2c-41ac-ae13-e0b5f4b5435f">
+          <AttributeID>Age</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="55c23532-7ea5-4365-9d3d-6658b63c62f3">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8da0cc45-4f97-4810-94a9-653be34d607d">
+          <AttributeID>Antecedents</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8261f46b-def0-4d54-97fd-dad273425ce7">
+          <AttributeID>Age Categorie</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="c3e8e9eb-26a6-401c-83a5-63ba30eee3b2">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="43ae465b-6713-47d7-928b-f26b89209415">
+      <ID>Dim Medicaments</ID>
+      <Name>Dim Medicaments</Name>
+      <DimensionID>Dim Medicaments</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0513d78f-b2df-498b-ba46-5c4d275b0f0e">
+          <AttributeID>ID Medicament</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8645d0c5-afc1-4c11-b950-6d80d50b383f">
+          <AttributeID>Nom Medicament</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2653f7d-c361-471d-ba8a-4d134a1cdda3">
+          <AttributeID>Classe Therapeutique</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c1962952-5f8c-42a7-a55c-6097d3d16747">
+          <AttributeID>Dosage</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c7640baf-f566-4e54-bc3b-735d8c11d7fe">
+          <AttributeID>Taux Reussite</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="824ba04a-6eaa-4707-9257-88beaabf7116">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="5fd3d118-52ef-4854-93a0-68080aad687e">
+      <ID>Faits Effets Indesirables</ID>
+      <Name>Faits Effets Indesirables</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="6ce8cd5c-2245-4be8-8a4a-b3e677aa0f37">
+          <ID>Nombre Effets</ID>
+          <Name>Nombre Effets</Name>
+          <Source dwd:design-time-name="4953269e-a111-40c9-9ba0-766ec62ef4d4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d445bb5e-2c04-4b47-8ae6-c30bf111531b">
+              <TableID>dbo_Faits_EffetsIndesirables</TableID>
+              <ColumnID>Nombre_Effets</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8f35fb83-1b87-4c94-9936-d385245a574f">
+          <ID>Gravite Aggregée</ID>
+          <Name>Gravite Aggregée</Name>
+          <Source dwd:design-time-name="abee0996-f4f3-4de2-935f-9d2ccbee99bc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dd961f54-d00e-417a-87e0-ac86b3df207d">
+              <TableID>dbo_Faits_EffetsIndesirables</TableID>
+              <ColumnID>Gravite_Aggregée</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dcd99982-51c7-42fd-a561-e0be56a1b626">
+          <ID>Faits Effets Indesirables Count</ID>
+          <Name>Faits Effets Indesirables Count</Name>
+          <Source dwd:design-time-name="035d2d01-6ea2-4980-9721-c4012543a817">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e48f4339-b815-4460-a960-325485872ec2">
+              <TableID>dbo_Faits_EffetsIndesirables</TableID>
+            </Source>
+          </Source>
+          <AggregateFunction>Count</AggregateFunction>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dbd6b345-27c4-40dc-9c9c-ae3b268fe300">
+          <CubeDimensionID>Dim Temps</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="67a1c9ed-c024-4cc1-96b8-47d6b2efe4e5">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="15f75546-e97c-4184-9223-debb9cc066a0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0ef62f3e-ea06-4a24-9cb5-448169d22ace">
+                    <TableID>dbo_Faits_EffetsIndesirables</TableID>
+                    <ColumnID>ID_Temps</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>ID Temps</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="21afb355-46c9-48d1-a05a-2fa384ca241d">
+          <CubeDimensionID>Dim Patients</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="89b5958e-dcc0-4e57-9968-a034ac3ee106">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a298d299-7cd6-4ae2-97d2-bd059a856d06">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cd363ef1-cc05-4181-b9fe-db0ab56541e8">
+                    <TableID>dbo_Faits_EffetsIndesirables</TableID>
+                    <ColumnID>ID_Patient</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>ID Patient</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f3e1bca1-eba7-4697-951d-be5dd926dfb0">
+          <CubeDimensionID>Dim Medicaments</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="602d7426-367b-4062-833b-187c8f60e3c4">
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="78078b93-5702-4081-b460-d4a7ef861cb3">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="92ad8dd8-467d-4f44-840c-95dacdeac7ff">
+                    <TableID>dbo_Faits_EffetsIndesirables</TableID>
+                    <ColumnID>ID_Medicament</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <AttributeID>ID Medicament</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
